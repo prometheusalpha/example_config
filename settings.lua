@@ -1,0 +1,3 @@
+-- add your custom vim api settings here
+-- vim.opt.relativenumber = true
+-- vim.g.mapleader = "\\"

@@ -1,3 +1,9 @@
+local vim_settings_path = vim.api.nvim_get_runtime_file("lua/custom/settings.lua", false)[1]
+
+if vim_settings_path then
+  dofile(vim_settings_path)
+end
+
 -- local autocmd = vim.api.nvim_create_autocmd
 
 -- Auto resize panes when resizing nvim window
